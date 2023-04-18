@@ -1,0 +1,30 @@
+
+.main{
+    font-size: 1.3rem;
+}
+.main,.navList,.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main,.form{
+    flex-direction: column;
+    gap: .8rem;
+}
+.navList{
+    margin: 0.2rem 2rem;
+    font-size: 1.5rem;
+    gap: 1.4rem;
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+.form{
+    max-width: 60rem;
+}
+.footer{
+    text-align: center;
+}
+
