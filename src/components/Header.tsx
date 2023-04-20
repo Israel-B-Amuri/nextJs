@@ -2,7 +2,7 @@ import React from 'react'
 import style from '../styles/Home.module.css'
 import { headers } from 'next/dist/client/components/headers'
 import Link from 'next/link'
-const Header = ({display}:any) => {
+const Header = () => {
   return (
     <header>
       <nav>
